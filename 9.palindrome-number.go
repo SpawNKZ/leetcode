@@ -6,7 +6,7 @@
 
 // @lc code=start
 func isPalindrome(x int) bool {
-
+	return true
 }
 
 // @lc code=end
