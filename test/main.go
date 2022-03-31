@@ -14,9 +14,11 @@ func main() {
 	// nums2 := []int{2, 2}
 	// nums1 := []int{1, 2, 2, 1}
 	// nums2 := []int{2}
-	nums1 := []int{4, 9, 5}
-	nums2 := []int{9, 4, 9, 8, 4}
-	fmt.Println(leetcode.Intersect(nums1, nums2))
+	// nums1 := []int{4, 9, 5}
+	// nums2 := []int{9, 4, 9, 8, 4}
+	// fmt.Println(leetcode.Intersect(nums1, nums2))
+	prices := []int{7, 1, 5, 3, 6, 4}
+	fmt.Println(leetcode.MaxProfit(prices))
 	// fmt.Println(leetcode.MaxSubArray(num1))
 	// fmt.Println(leetcode.MaxSubArray(num2))
 }
