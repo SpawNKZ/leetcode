@@ -25,8 +25,8 @@ func main() {
 	// s3 := "adca"
 	// s4 := "dcdaacdaasd"
 	// fmt.Println(leetcode.CheckInclusion(s3, s4))
-	nums := []int{0, 2, 1, 5, 3, 4}
-	fmt.Println(leetcode.BuildArray(nums))
+	address := "1.1.1.1"
+	fmt.Println(leetcode.DefangIPaddr(address))
 	// fmt.Printl, [3n(leetcode.MaxSubArray(num1))
 	// fmt.Println(leetcode.MaxSubArray(num2))
 }
