@@ -22,9 +22,13 @@ func main() {
 	// fmt.Println(leetcode.IsAnagram(s, t))
 	// s1 := "adc"
 	// s2 := "dcda"
-	s3 := "adca"
-	s4 := "dcdaacdaasd"
-	fmt.Println(leetcode.CheckInclusion(s3, s4))
-	// fmt.Println(leetcode.MaxSubArray(num1))
+	// s3 := "adca"
+	// s4 := "dcdaacdaasd"
+	// fmt.Println(leetcode.CheckInclusion(s3, s4))
+	mat := [][]int{{1, 2}}
+	r := 1
+	c := 1
+	fmt.Println(leetcode.MatrixReshape(mat, r, c))
+	// fmt.Printl, [3n(leetcode.MaxSubArray(num1))
 	// fmt.Println(leetcode.MaxSubArray(num2))
 }
