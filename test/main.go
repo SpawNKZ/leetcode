@@ -25,7 +25,9 @@ func main() {
 	// s3 := "adca"
 	// s4 := "dcdaacdaasd"
 	// fmt.Println(leetcode.CheckInclusion(s3, s4))
-	fmt.Println(leetcode.Generate(4))
+	jewels := "Z"
+	stones := "zz"
+	fmt.Println(leetcode.NumJewelsInStones(jewels, stones))
 	// fmt.Printl, [3n(leetcode.MaxSubArray(num1))
 	// fmt.Println(leetcode.MaxSubArray(num2))
 }
