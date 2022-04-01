@@ -25,10 +25,7 @@ func main() {
 	// s3 := "adca"
 	// s4 := "dcdaacdaasd"
 	// fmt.Println(leetcode.CheckInclusion(s3, s4))
-	mat := [][]int{{1, 2}}
-	r := 1
-	c := 1
-	fmt.Println(leetcode.MatrixReshape(mat, r, c))
+	fmt.Println(leetcode.Generate(4))
 	// fmt.Printl, [3n(leetcode.MaxSubArray(num1))
 	// fmt.Println(leetcode.MaxSubArray(num2))
 }
