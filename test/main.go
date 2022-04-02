@@ -29,7 +29,7 @@ func main() {
 	// fmt.Println(leetcode.MaximumWealth(accounts))
 	// nums := []int{1, 1, 1, 1}
 	// fmt.Println(leetcode.NumIdenticalPairs(nums))
-	fmt.Println(leetcode.FirstUniqChar("leetcode"))
+	fmt.Println(leetcode.CanConstruct("bg", "efjbdfbdgfjhhaiigfhbaejahgfbbgbjagbddfgdiaigdadhcfcj"))
 	// fmt.Printl, [3n(leetcode.MaxSubArray(num1))
 	// fmt.Println(leetcode.MaxSubArray(num2))
 }
