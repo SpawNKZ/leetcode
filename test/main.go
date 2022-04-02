@@ -25,8 +25,8 @@ func main() {
 	// s3 := "adca"
 	// s4 := "dcdaacdaasd"
 	// fmt.Println(leetcode.CheckInclusion(s3, s4))
-	nums := []int{1, 2, 3, 4, 5}
-	fmt.Println(leetcode.RunningSum(nums))
+	accounts := [][]int{{1, 5}, {7, 3}, {3, 5}}
+	fmt.Println(leetcode.MaximumWealth(accounts))
 	// fmt.Printl, [3n(leetcode.MaxSubArray(num1))
 	// fmt.Println(leetcode.MaxSubArray(num2))
 }
