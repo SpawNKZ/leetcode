@@ -27,9 +27,10 @@ func main() {
 	// fmt.Println(leetcode.CheckInclusion(s3, s4))
 	// accounts := [][]int{{1, 5}, {7, 3}, {3, 5}}
 	// fmt.Println(leetcode.MaximumWealth(accounts))
-	// nums := []int{1, 1, 1, 1}
+	nums := []int{2, 3, 4}
 	// fmt.Println(leetcode.NumIdenticalPairs(nums))
-	fmt.Println(leetcode.CanConstruct("bg", "efjbdfbdgfjhhaiigfhbaejahgfbbgbjagbddfgdiaigdadhcfcj"))
+	// fmt.Println(leetcode.CanConstruct("bg", "efjbdfbdgfjhhaiigfhbaejahgfbbgbjagbddfgdiaigdadhcfcj"))
 	// fmt.Printl, [3n(leetcode.MaxSubArray(num1))
 	// fmt.Println(leetcode.MaxSubArray(num2))
+	fmt.Println(leetcode.TwoSum2(nums, 9))
 }
