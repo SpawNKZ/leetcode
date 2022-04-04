@@ -33,7 +33,6 @@ func main() {
 	// // fmt.Printl, [3n(leetcode.MaxSubArray(num1))
 	// // fmt.Println(leetcode.MaxSubArray(num2))
 	// fmt.Println(leetcode.TwoSum2(nums, 9))
-	nums := []int{1, 12, -5, -6, 50, 3}
-	k := 4
-	fmt.Println(leetcode.FindMaxAverage(nums, k))
+	s := "abcabcbb"
+	fmt.Println(leetcode.LengthOfLongestSubstring(s))
 }
