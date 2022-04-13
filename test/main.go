@@ -33,6 +33,6 @@ func main() {
 	// // fmt.Printl, [3n(leetcode.MaxSubArray(num1))
 	// // fmt.Println(leetcode.MaxSubArray(num2))
 	// fmt.Println(leetcode.TwoSum2(nums, 9))
-	nums := []int{1, -1, 4}
-	fmt.Println(leetcode.PivotIndex(nums))
+	nums := []int{1}
+	fmt.Println(leetcode.DominantIndex(nums))
 }
