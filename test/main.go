@@ -33,6 +33,7 @@ func main() {
 	// // fmt.Printl, [3n(leetcode.MaxSubArray(num1))
 	// // fmt.Println(leetcode.MaxSubArray(num2))
 	// fmt.Println(leetcode.TwoSum2(nums, 9))
-	s := "abcabcbb"
-	fmt.Println(leetcode.LengthOfLongestSubstring(s))
+	nums := []int{2, 1, 0, 4}
+	leetcode.SortColors(nums)
+	fmt.Println(nums)
 }
