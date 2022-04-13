@@ -1,6 +1,6 @@
 package leetcode
 
-func PivotIndex(nums []int) int {
+func FindMiddleIndex(nums []int) int {
 	var index int
 	var counter int
 	for counter != len(nums) {
