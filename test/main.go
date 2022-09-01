@@ -1,5 +1,10 @@
 package main
 
-func main() {
+import (
+	"fmt"
+	"leetcode"
+)
 
+func main() {
+	fmt.Println("NumberOfSteps", leetcode.NumberOfSteps(123))
 }
