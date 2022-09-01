@@ -6,5 +6,5 @@ import (
 )
 
 func main() {
-	fmt.Println("NumberOfSteps", leetcode.FindNumbers([]int{100000}))
+	fmt.Println("NumberOfSteps", leetcode.SortedSquares([]int{-7, -3, 2, 3, 11}))
 }
