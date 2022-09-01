@@ -6,5 +6,5 @@ import (
 )
 
 func main() {
-	fmt.Println("NumberOfSteps", leetcode.FindMaxConsecutiveOnes([]int{1, 0, 1, 1, 0, 1}))
+	fmt.Println("NumberOfSteps", leetcode.FindNumbers([]int{100000}))
 }
