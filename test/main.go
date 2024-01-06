@@ -6,5 +6,5 @@ import (
 )
 
 func main() {
-	fmt.Println("NumberOfSteps", leetcode.SortedSquares([]int{-7, -3, 2, 3, 11}))
+	fmt.Println("NumberOfSteps", leetcode.KidsWithCandies([]int{4, 2, 1, 1, 2}, 1))
 }
