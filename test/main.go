@@ -6,5 +6,5 @@ import (
 )
 
 func main() {
-	fmt.Println("NumberOfSteps", leetcode.KidsWithCandies([]int{4, 2, 1, 1, 2}, 1))
+	fmt.Println("Output", leetcode.Search([]int{-1, 0, 3, 5, 9, 12}, 12))
 }
