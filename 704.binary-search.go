@@ -1,5 +1,6 @@
 package leetcode
 
+// Search Binary
 func Search(nums []int, target int) int {
 	var right, left, mid int
 
