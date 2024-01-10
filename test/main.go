@@ -6,5 +6,5 @@ import (
 )
 
 func main() {
-	fmt.Println("Output", leetcode.Search([]int{-1, 0, 3, 5, 9, 12}, 12))
+	fmt.Println("Output", leetcode.GetSum(-1, 2))
 }
